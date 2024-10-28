@@ -5,7 +5,7 @@
       "name": "Ye Thi Ha Htwe",
       "role": "Full Stack Developer, Mobile Developer",
       "avatar_url": "/assets/images/1011.jpeg",
-      "profile_url": "/members/yethihahtwe",
+      "profile_url": "https://yethihahtwe.github.io",
       "github_username": "yethihahtwe",
       "github_url": "https://github.com/yethihahtwe",
       "linkedin_url": "https://www.linkedin.com/in/yethihahtwe/",
@@ -18,13 +18,12 @@
       "order": 1,
       "is_active": true
     },
-
     {
       "id": "1003",
       "name": "Zaw Linn Tun",
       "role": "Basic Worker",
       "avatar_url": "./assets/images/FD1003.jpg",
-      "profile_url": "/members/zawlinn-vlog",
+      "profile_url": "/1003",
       "github_username": "zawlinn-vlog",
       "github_url": "https://github.com/zawlinn-vlog",
       "linkedin_url": "",
@@ -34,7 +33,25 @@
         "twitter": "",
         "portfolio": ""
       },
-      "order": 1,
+      "order": 2,
+      "is_active": true
+    },
+    {
+      "id": "1082",
+      "name": "May Paing",
+      "role": "Graphic Designer",
+      "avatar_url": "./assets/images/1082.png",
+      "profile_url": "/1082",
+      "github_username": "May-Paing",
+      "github_url": "https://github.com/May-Paing",
+      "linkedin_url": "",
+      "bio": "Working in a construction company with basic photoshop position.",
+      "skills": ["just beginner"],
+      "social_links": {
+        "twitter": "",
+        "portfolio": ""
+      },
+      "order": 3,
       "is_active": true
     }
   ]
