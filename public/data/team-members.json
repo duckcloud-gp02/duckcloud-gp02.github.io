@@ -53,6 +53,24 @@
       },
       "order": 3,
       "is_active": true
+    },
+    {
+      "id": "1010",
+      "name": "Albert Tesla",
+      "role": "A young passionate developer",
+      "avatar_url": "./1010/assets/astronaut.png",
+      "profile_url": "/1010",
+      "github_username": "Albert Tesla",
+      "github_url": "https://github.com/ThawHtetTun",
+      "linkedin_url": "",
+      "bio": "A young passionate developer who has a great interest in science and technology.",
+      "skills": [],
+      "social_links": {
+        "twitter": "",
+        "portfolio": ""
+      },
+      "order": 4,
+      "is_active": true
     }
   ]
 }
