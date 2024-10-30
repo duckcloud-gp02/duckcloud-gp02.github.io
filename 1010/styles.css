@@ -1,0 +1,113 @@
+/* General Styles */
+* {
+    margin: 10px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: grey;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 20px 10px;
+    font-size: larger;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    color:black
+}
+
+li:hover {
+    background-color: rgba(25, 186, 255, 0.279);
+    color: white;
+}
+
+/* Heading Styles */
+h1 {
+    margin-top: 50px;
+    font-size: 200px;
+}
+
+/* Animation Styles */
+.slide-in {
+    position: relative;
+    left: -100px; /* Start offscreen to the left */
+    opacity: 0;
+    animation: slideIn 2s ease-out forwards; /* Runs the animation on load */
+}
+
+@keyframes slideIn {
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+/* Main Section Styles */
+main {
+    background-color: white;
+    height: 1000px;
+}
+
+/* Layout Styles for Sections */
+#about_main,
+#projects_main,
+#contact_main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* Section Styles */
+#about,
+#projects,
+#contact {
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#about p,
+#projects p {
+    margin-top: 8px;
+    line-height: normal;
+}
+
+#contact p {
+    margin-top: 15px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: grey;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: black;
+}
